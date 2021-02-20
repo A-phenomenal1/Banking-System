@@ -1,0 +1,31 @@
+.title2 {
+  width: 20%;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: fantasy;
+  padding: 10px;
+}
+
+.input-field {
+  width: 28%;
+  height: 3em;
+  font-size: 1.05em;
+  font-weight: 500;
+  padding-left: 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .title2 {
+    width: 35%;
+    font-size: 1.1em;
+  }
+  .input-field {
+    width: 60%;
+  }
+}

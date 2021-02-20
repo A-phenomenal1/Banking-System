@@ -1,0 +1,91 @@
+.logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15%;
+}
+
+.branding {
+  display: inline;
+  width: auto;
+  padding-left: 10px;
+  color: rgb(91, 95, 99);
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+li button {
+  outline: none;
+  border: none;
+  width: 5em;
+  border-radius: 10px;
+  background-color: rgb(95, 211, 176);
+}
+
+li button:focus {
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-item {
+  justify-content: center;
+}
+
+.spacer {
+  flex: 30;
+}
+
+.nav-li {
+  display: flex;
+  font-size: 120%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-weight: 100;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.nav-link {
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+  font-size: 1.21rem;
+}
+
+.nav-link:active {
+  opacity: 1;
+  font-weight: bold;
+  color: #000000;
+}
+
+.title {
+  font-size: 1.8em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  border-bottom: 3px solid #2c061f;
+}
+
+tr {
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: rgba(197, 170, 212, 0.4) !important;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
+}
+tr:nth-child(even) {
+  background-color: rgb(212, 243, 227);
+}
